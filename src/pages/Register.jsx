@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { useNavigate } from "react-router-dom"
+import {Link, useNavigate } from "react-router-dom"
 import { registerUser } from "../feature/auth/authSlice"
 
 
@@ -130,9 +130,9 @@ function Register() {
 
           <p className="text-center text-gray-600 mt-6">
             Already have an account?{' '}
-            <a href="/login" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors duration-300">
+            <Link to="/login" className="text-purple-600 font-semibold hover:text-purple-700 transition-colors duration-300">
               Login
-            </a>
+            </Link>
           </p>
         </div>
       </div>

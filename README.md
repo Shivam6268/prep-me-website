@@ -1,7 +1,7 @@
 
 🔗 Url for this website
 
-Live demo: https://prep-me-website.vercel.app/login
+Live demo: https://prep-me-website.vercel.app
 
 🌟 Interview Prep Web App
 
